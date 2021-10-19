@@ -82,7 +82,7 @@ namespace Microsoft.CodeQuality.Analyzers.ApiDesignGuidelines
             }
         }
 
-        private sealed class CustomFixAllProvider : DocumentBasedFixAllProvider
+        private sealed class CustomFixAllProvider : Analyzer.Utilities.DocumentBasedFixAllProvider
         {
             public static readonly CustomFixAllProvider Instance = new();
 
